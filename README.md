@@ -1,6 +1,9 @@
 ## Polars vs Pandas inside an AWS Lambda
 ### Data Processing
 
+Read Full Blog Post Here
+https://www.confessionsofadataguy.com/polars-vs-pandas-inside-an-aws-lambda/
+
 This repo is part of a blog post covering the topic of using Pandas and Polars
 inside an AWS Lambda to do data processing.
 
