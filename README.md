@@ -9,13 +9,13 @@ inside an AWS Lambda to do data processing.
 
 The idea is to just example how the code differs, and then inspect the
 memory usage and runtime of those two Lambdas to see if one or the
-other provides better performance. Since we pay for memory and runtime
+other provides better performance. Since we pay for the memory and runtime
 of Lambdas.
 
-We are using BackBlaze open source data set.
+We are using BackBlaze open-source data set.
 https://www.backblaze.com/cloud-storage/resources/hard-drive-test-data
 
-In this case we used `90`` files, about `6` GB worth of data.
+In this case we used `90` files, about `6` GB worth of data.
 
 Also, we are using `Docker` along with AWS `ECR` to store images for
 each Polars and Pandas lambda. Here are the steps to `build` and 
